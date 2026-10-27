@@ -65,6 +65,8 @@
     "cs3d:unlink": "node libs/@cornerstonejs/scripts/unlink-ohif-cornerstone-node-modules.mjs ."
   },
   "dependencies": {
+    "@smis/extension-ai": "link:../smis-ohif/extensions/extension-ai",
+    "@smis/mode-ai": "link:../smis-ohif/modes/mode-ai",
     "execa": "8.0.1"
   },
   "devDependencies": {
